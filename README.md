@@ -10,4 +10,4 @@ Testing various uses of ValueSet.
 
 This is a trial IG to explore using ValueSets.
 
-One topic is the availableility of SAMHSA ValueSets, and their inclusion of inactive codes. Inactive codes are not good for new data, but they are critical for historic data.
+One topic is the availability of SAMHSA ValueSets, and their inclusion of inactive codes. Inactive codes are not good for new data, but they are critical for historic data.
