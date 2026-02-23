@@ -15,13 +15,9 @@ Second there is exploration of the SAMHSA ValueSets from VSAC, specifically valu
 - One [ValueSet](ValueSet-SamhsaJustRx-inactive.html) includes the `inactive` SAMHSA
 - One [ValueSet](ValueSet-SamhsaJustRx-unknown.html) does not set the inactive parameter from SAMHSA
 
-**Note** that all three of these are the same. So the ValueSets that are being included clearly don't indicate the active/inactive status of the codes.
+**Note** Now that vsac is natively in the tx server, the `.18` ValueSet does return with some codes marked inactive. So the above expansion works as expected.
 
-Unfortunately the vsac codes are still made available to an IG by use of the vsac package.
-- Version 0.19.0 of the vsac package includes the SAMHSA ValueSets.
-- Later versions have removed the SAMHSA ValueSets.
-
-Should not need to use the vsac package to get these ValueSets, but currently that is the only way.
+**Note** No longer need to depend on vsac package, as it is native now in tx server
 
 <div markdown="1" class="stu-note">
 
