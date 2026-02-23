@@ -1,10 +1,9 @@
 
-# Test ValueSet 
+# Test ValueSet
 
 Testing various uses of ValueSet.
 
 - ci-build - http://build.fhir.org/ig/JohnMoehrke/test-valuesets/branches/main/index.html
-- ci-build for FHIR R6 - https://build.fhir.org/ig/JohnMoehrke/test-valuesets/branches/R6/index.html
 
 ## Status
 
