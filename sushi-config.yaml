@@ -19,12 +19,12 @@ publisher:
 license: CC-BY-SA-4.0
 jurisdiction: 'http://unstats.un.org/unsd/methods/m49/m49.htm#001'
 
-dependencies:
+#dependencies:
     ### Must use 0.19.0 as higher versions removed the SAMHSA valueSets
-  us.nlm.vsac:
+#  us.nlm.vsac:
 #    version: 0.24.0
-    version: 0.19.0 
-    uri: http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac
+#    version: 0.19.0 
+#    uri: http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac
 
 parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
   path-resource:
